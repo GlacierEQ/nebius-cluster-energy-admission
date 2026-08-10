@@ -1,0 +1,11 @@
+{
+  "schema": "glaciereq.promotion-authority-grant.v1",
+  "repository": "GlacierEQ/nebius-cluster-energy-admission",
+  "source_sha": "2c02319a1534f2dbbb352027fe6d9d11bf0ff5845a5daad37d89ba26d89cde8d",
+  "proof_receipt_digest": "437b5dc45795b7e04fd72c493c7ed6f292001c0ef907c61c28a64de27bb6002f",
+  "not_after": 1788948675.603441,
+  "mac": "d3e4136ceca2601edd9d9b08bd8032bc35b27d8fd1b3932d4c5106282e6dca38",
+  "issuer": "local_operator_promotion_authority",
+  "verified": true,
+  "secret_ref": "src/promotion_authority.py::LOCAL_OPERATOR_SECRET"
+}

@@ -1,0 +1,10 @@
+[project]
+name = "nebius-cluster-energy-admission"
+version = "0.0.1"
+description = "Scaffold: Cluster Energy Admission (independent Nebius lens)"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

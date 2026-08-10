@@ -1,0 +1,31 @@
+{
+  "schema": "glaciereq.proof-receipt.v1",
+  "repository": "GlacierEQ/nebius-cluster-energy-admission",
+  "source_sha": "2c02319a1534f2dbbb352027fe6d9d11bf0ff5845a5daad37d89ba26d89cde8d",
+  "proof_id": "elite-nebius-cluster-energy-admission-1786356675",
+  "environment": {
+    "python": "/Users/kcbflux/.local/bin/python3.11",
+    "PYTHONPATH": "/Users/kcbflux/GlacierEQ_Swarm/job-app/repos/nebius-cluster-energy-admission:/Users/kcbflux/GlacierEQ_Swarm/job-app/repos/nebius-cluster-energy-admission/src",
+    "entry": "unittest"
+  },
+  "tests": [
+    "/Users/kcbflux/.local/bin/python3.11 -m unittest discover -s tests -v (x2)"
+  ],
+  "adversarial_tests": [
+    "tests/test_adversarial.py"
+  ],
+  "runtime": {
+    "operate": "scripts/operate.py (x2)",
+    "dual_run_ok": true,
+    "proof_dual_run_ok": true
+  },
+  "result": "PASS",
+  "limitations": [
+    "not production deployed",
+    "reference implementation only"
+  ],
+  "timestamp": "2026-08-10T10:11Z",
+  "artifact_hashes": {
+    "operability_receipt": "151e893a08c0af5d1b30a817d266f522630d2bd3e95c1ebdb7a9e55e738ae479"
+  }
+}

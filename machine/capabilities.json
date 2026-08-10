@@ -1,0 +1,12 @@
+{
+  "schema": "glaciereq.repo-capabilities.v1",
+  "repository": "GlacierEQ/nebius-cluster-energy-admission",
+  "capabilities": [
+    {
+      "id": "cluster-energy-admission",
+      "name": "Cluster Energy Admission",
+      "status": "SCAFFOLD",
+      "module": "src/cluster_energy_admission.py"
+    }
+  ]
+}
