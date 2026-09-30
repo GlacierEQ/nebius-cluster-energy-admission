@@ -4,12 +4,12 @@
   "source_sha": "2c02319a1534f2dbbb352027fe6d9d11bf0ff5845a5daad37d89ba26d89cde8d",
   "proof_id": "elite-nebius-cluster-energy-admission-1786356675",
   "environment": {
-    "python": "/Users/kcbflux/.local/bin/python3.11",
-    "PYTHONPATH": "/Users/kcbflux/GlacierEQ_Swarm/job-app/repos/nebius-cluster-energy-admission:/Users/kcbflux/GlacierEQ_Swarm/job-app/repos/nebius-cluster-energy-admission/src",
+    "python": "${HOME}/.local/bin/python3.11",
+    "PYTHONPATH": "${HOME}/GlacierEQ_Swarm/job-app/repos/nebius-cluster-energy-admission:${HOME}/GlacierEQ_Swarm/job-app/repos/nebius-cluster-energy-admission/src",
     "entry": "unittest"
   },
   "tests": [
-    "/Users/kcbflux/.local/bin/python3.11 -m unittest discover -s tests -v (x2)"
+    "${HOME}/.local/bin/python3.11 -m unittest discover -s tests -v (x2)"
   ],
   "adversarial_tests": [
     "tests/test_adversarial.py"
